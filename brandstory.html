@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>기말_our story</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+        *{
+            margin: 0 auto;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        /* whole rayout */
+
+        /* header rayout */
+        .logo{
+            width: 685px;
+            height: 66px;
+            float: left;
+            /* background-color: antiquewhite; */
+            margin-top: 12px;
+            margin-right: -10px;
+        }
+
+        .menu{
+            width: 630px;
+            height: 66px;
+            float: left;
+            /* background-color: azure; */
+            margin-left: -100px;
+            margin-top: 5px;
+        }
+
+        .icon{
+            width: 707px;
+            height: 66px;
+            background-color: 66px;
+            float: left;
+            /* background-color: bisque; */
+            position: relative;
+            top: -55px;
+            margin-left: 1250px;
+        }
+
+        /* body rayout */
+
+        /* main img rayout */
+        #mainImgWrap{
+            width: 1902px;
+            height: 822px;
+            float: left;
+
+
+            background-image: url("https://i.postimg.cc/g0xPh67V/03-1.jpg");
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .scrollLine{
+            width: 20px;
+            height: 50px;
+            margin-left: 920px;
+            margin-top: 14px;
+
+            border-left: 1px solid #fbfeff;
+
+            /* background-color: rgb(240, 204, 157); */
+        }
+
+        /*intro rayout*/
+        .intro{
+            width: 1902px;
+            height: 245px;
+            float: left;
+            /* background-color: rgb(172, 118, 48); */
+        }
+
+        /* content1 rayout */
+        .contentWrap1{
+            width: 1902px;
+            height: 476px;
+            float: left;
+            /* background-color: beige; */
+        }
+
+        .CTimg1{
+            width: 765px;
+            height: 476px;
+            float: left;
+            /* background-color: rgb(56, 56, 38); */
+
+            margin-left: 374px;
+            margin-right: 0px;
+
+            background-image: url("https://i.postimg.cc/90VSL4LN/03-2.jpg");
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .CTtext1{
+            width: 389px;
+            height: 476px;
+            float: left;
+            /* background-color: rgb(175, 175, 81); */
+
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .CTline1{
+            width: 52px;
+            height: 1px;
+            float: left;
+            background-color: #E68A3D; 
+
+            margin-left: -20px;
+            margin-top: 253px
+        }
+
+        .balnk1{
+            width: 1902px;
+            height: 105px;
+            float: left;
+            /* background-color: rgb(172, 118, 48); */
+        }
+
+        /* content2 rayout */
+        .contentWrap2{
+            width: 1902px;
+            height: 476px;
+            float: left;
+            /* background-color: beige; */
+        }
+
+        .CTtext2{
+            width: 389px;
+            height: 476px;
+            float: left;
+            /* background-color: rgb(175, 175, 81); */
+
+            margin-left: 384px;
+            margin-right: 0px;
+        }
+
+        .CTline2{
+            width: 52px;
+            height: 1px;
+            float: left;
+            background-color: #E68A3D; 
+
+            margin-left:-30px;
+            margin-right:-400px;
+            margin-top: 173px
+        }
+
+        .CTimg2{
+            width: 765px;
+            height: 476px;
+            float: left;
+            /* background-color: rgb(56, 56, 38); */
+
+            margin-left: 0px;
+            margin-right: 0px;
+
+            background-image: url("https://i.postimg.cc/28kMvZb1/03-3.jpg");
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .balnk2{
+            width: 1902px;
+            height: 105px;
+            float: left;
+            /* background-color: rgb(172, 118, 48); */
+        }
+
+         /* content3 rayout */
+         .contentWrap3{
+            width: 1902px;
+            height: 476px;
+            float: left;
+            /* background-color: beige; */
+        }
+
+        .CTimg3{
+            width: 765px;
+            height: 476px;
+            float: left;
+            /* background-color: rgb(56, 56, 38); */
+
+            margin-left: 374px;
+            margin-right: 0px;
+
+            background-image: url("https://i.postimg.cc/hjR3GzRP/03-4.jpg");
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .CTtext3{
+            width: 389px;
+            height: 476px;
+            float: left;
+            /* background-color: rgb(175, 175, 81); */
+
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .CTline3{
+            width: 52px;
+            height: 1px;
+            float: left;
+            background-color: #E68A3D;
+
+            margin-left: -20px;
+            margin-top: 206px
+        }
+
+        .balnk3{
+            width: 1902px;
+            height: 105px;
+            float: left;
+            /* background-color: rgb(172, 118, 48); */
+        }
+
+        /* bottom img rayout */
+        .bottomContentWrap{
+            width: 1902px;
+            height: 514px;
+            float: left;
+            /* background-color: beige; */
+        }
+
+        .BCimg{
+            width: 1154px;
+            height: 436px;
+            float: left;
+            /* background-color: rgb(56, 56, 38); */
+
+            margin-left: 374px;
+            margin-right: 0px;
+
+            background-image: url("https://i.postimg.cc/0Q5DZPp0/03-5.jpg");
+            background-position: center center;
+            background-size: cover;
+        }
+
+        /* bottom rayout */
+        /* footer rayout */
+         .bottom{
+            width: 1902px;
+            height: 146px;
+            float: left;
+            background-color: #f7f6f4;
+        }
+
+        .bottomMain{
+            width: 1175px;
+            height: 48px;
+            float: left;
+            /* background-color: #a88e5b; */
+
+            margin-left: 347px;
+
+            border-bottom: 1px solid #bdbdbd;
+        }
+
+        .bottomSub{
+            width: 1175px;
+            height: 98px;
+            float: left;
+            /* background-color: #cacac9; */
+
+            margin-left: 347px;
+        }
+
+        /* header design */
+        .headerLogo{
+            float: left;
+            margin-left: 317px;
+            margin-right: 198px;
+        }
+
+        .navi{
+		    text-align: center;
+            margin-top: 19px;
+		}
+        
+        .navi a{
+        	color: #000000;
+        	font-size: 13px;
+        	text-decoration: none;
+        	/*margin-bottom: 20px;*/
+			margin-right: 30px;
+			margin-left: 30px;
+        }
+
+        .navi a:hover{
+        	color: #C77632;
+        	border-bottom: 2px solid #C77632;
+        }
+
+        /*main image design*/
+
+        .subtext{
+            font-size: 35px;
+            font-weight: 900;
+            margin-left: 870px;
+            margin-top: 324px;
+
+            color: #f7ffff;
+        }
+
+        .maintext{
+            font-size: 16px;
+            text-align: center;
+            font-weight: 100;
+
+            margin-left: -40px;
+            margin-top: 34px;
+
+            line-height: 26px;
+
+            color: #fffeff;
+        }
+
+        .detailtext{
+            font-size: 15px;
+            margin-top: 260px;
+            margin-left: 894px;
+
+            color: #fbfeff;
+        }
+
+        /* intro design */
+        .introText{
+            font-size: 22px;
+            text-align:center;
+
+            margin-left: -62px;
+            margin-top: 84px;
+
+            color: #424242;
+        }
+
+        /*content1 design*/
+        .CTimgText1{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 35px;
+
+            text-align:center;
+            font-weight:lighter;
+
+            margin-left: 0px;
+            margin-top: 177px;
+
+            color: #ececec;
+
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .CTtextMain{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight:900;
+            font-size: 32px;
+            text-align:left;
+
+            line-height: 40px;
+
+            margin-left: 41px;
+            margin-top: 187px;
+
+            color: #1f1f1f;
+        }
+
+        .CTtextSub{
+            font-size: 16px;
+            text-align:left;
+
+            margin-left: 41px;
+            margin-top: 9px;
+
+            color: #7c7875;
+        }
+
+        .CTtextDetail{
+            font-size: 16px;
+            text-align:left;
+
+            margin-left: 41px;
+            margin-top: 42px;
+
+            color: #474e54;
+        }
+
+        /*content2 design*/
+        .CTimgText2{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 35px;
+
+            text-align:center;
+            font-weight:lighter;
+
+            margin-left: 0px;
+            margin-top: 177px;
+
+            color: #ececec;
+
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .CTtextMain2{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight:900;
+            font-size: 32px;
+            text-align:left;
+
+            line-height: 40px;
+
+            margin-left:-315px;
+            margin-right: 41px;
+            margin-top: 115px;
+
+            color: #1f1f1f;
+        }
+
+        .CTtextSub2{
+            font-size: 16px;
+            text-align:left;
+
+            margin-left:-315px;
+            margin-right: 41px;
+            margin-top: 12px;
+
+            line-height: 23px;
+
+            color: #7c7875;
+        }
+
+        .CTtextDetail2{
+            font-size: 16px;
+            text-align:left;
+
+            margin-left:-315px;
+            margin-right: 41px;
+            margin-top: 42px;
+
+            color: #474e54;
+        }
+
+        /*content3 design*/
+        .CTimgText3{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 35px;
+
+            text-align:center;
+            font-weight:lighter;
+
+            margin-left: 0px;
+            margin-top: 177px;
+
+            color: #ececec;
+
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .CTtextMain3{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight:900;
+            font-size: 32px;
+            text-align:left;
+
+            line-height: 40px;
+
+            margin-left: 41px;
+            margin-top: 124px;
+
+            color: #1f1f1f;
+        }
+
+        .CTtextSub3{
+            font-size: 16px;
+            text-align:left;
+
+            margin-left: 41px;
+            margin-top: 9px;
+
+            color: #7c7875;
+        }
+
+        .CTtextDetail3{
+            font-size: 16px;
+            text-align:left;
+
+            margin-left: 41px;
+            margin-top: 42px;
+
+            color: #474e54;
+        }
+
+        /*bottom content design*/
+        .BCimgSub{
+                float: left;
+                font-size: 16px;
+                color: #7C7262;
+
+                margin-top: 130px;
+                margin-left: 530px;
+        }
+
+        .BCimgMain{
+                float: left;
+                font-size: 21px;
+                color: #000;
+                
+                text-align: center;
+
+                margin-top: 38px;
+                margin-left: 445px;
+                
+
+                text-shadow: 2px 2px 5px #FFFFFF;
+        }
+        
+        .BCimgButton{
+                float: left;
+
+                width: 60px;
+                font-size: 15px;
+                color: #fcfcfc;
+                border: 1px solid #E68A3D;
+                background-color: #E68A3D;
+                border-radius: 30px;
+
+                padding-left: 40px;
+                padding-right: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                margin-top: 70px;
+                margin-left: 525px;
+        }
+
+        .BCimgMore{
+            text-decoration: none;
+            color: #fcfcfc;
+            text-align: center;
+        }
+
+        .BCimgMore a:hover{
+        	color: #dfdfdf;
+        	background-color: #255A44;
+        }
+
+         /* bottom design */
+         .BTmainText{
+            float: left;
+            font-size: 13px;
+            color: #767974;
+
+            margin-left: 10px;
+            margin-top: 13px;
+            margin-right: 90px;
+        }
+
+        .BTmainIcons{
+            float: left;
+            margin-top: 10px;
+            margin-left: 520px;
+        }
+
+        .BTsubText{
+            float: left;
+
+            font-size: 13px;
+            color:  #767974;
+
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="headerLogo" src="https://www.idus.com/resources/dist/images/logo.svg" alt="logo"></a>
+        </div>
+
+        <div class="menu">
+            <div class="navi">
+                <a href="brandstory.html">BRAND STORY</a>
+                <a href="bestsellers.html">BEST SELLER</a>
+                <a href="#">NEWS</a>
+                <a href="#">STORE</a>
+                <a href="login.html">MY PAGE</a>
+             </div>
+        </div>
+
+        <div class="icon">
+            <img src="https://i.postimg.cc/rsBvr4Zy/image.jpg" alt="icon">
+        </div>
+
+    </header>
+
+    <div id="mainImgWrap">
+        <div class="mainImgContent">
+            <p class="subtext">idus</p>
+            <div class="maintext">
+                <p>아이디어스는 엄격한 기준으로 고품질 제품만을 전합니다.<br>또한 획일화된 사회속에서 숨겨져 있던 내 가치를 표현하고,<br>자신의 취향을 찾아주는 BRAND입니다</p>
+            </div>
+            <p class="detailtext">SCROLL</p>
+
+            <div class="scrollLine">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="intro">
+        <p class="introText">핸드메이드 제품과 함께<br>나만의 개성을 탐험하는 특별한 여정</p>
+    </div>
+
+    <div class="contentWrap1">
+        <div class="CTimg1">
+            <!-- <p class="CTimgText1"></p> -->
+        </div>
+
+        <div class="CTtext1">
+            <div class="CTline1">
+
+            </div>
+            <p class="CTtextMain">작가와 소비자 사이의<br>활발한 소통 채널</p>
+            <p class="CTtextSub">고객과 작가가 친밀감을 형성하려는 노력</p>
+            <p class="CTtextDetail">작가와 소비자가 소통할 수 있는<br>스토리 채널을 만들고<br>시간, 내용 제한 없이<br> 1대 1대화도 가능하게 했습니다.</p>
+        </div>
+    </div>
+
+    <div class="balnk1">
+        
+    </div>
+
+    <div class="contentWrap2">
+        <div class="CTtext2">
+            <div class="CTtext2">
+                <div class="CTline2">
+
+                </div>
+                <p class="CTtextMain2">핸드메이드<br>작가들에<br>주목하다.</p>
+                <p class="CTtextSub2">수공예 작품의 판매자와<br>구매자를 연결하기 위한 노력</p>
+                <p class="CTtextDetail2">작가의 제품을 좋아하는 이유는<br>전문가가 오랜 시간 정성 들여 만들고,<br>다른 데서는 살수 없다는 독창성에<br>사람들이 매료되기 때문입니다.</p>
+            </div>
+        </div>
+
+        <div class="CTimg2">
+            <!-- <p class="CTimgText2"></p> -->
+        </div>
+    </div>
+
+    <div class="balnk2">
+        
+    </div>
+
+    <div class="contentWrap3">
+        <div class="CTimg3">
+            <!-- <p class="CTimgText3"></p> -->
+        </div>
+
+        <div class="CTtext3">
+            <div class="CTtext3">
+                <div class="CTline3">
+
+                </div>
+                <p class="CTtextMain3">철저한<br>고객 가치 지향<br>플랫폼</p>
+                <p class="CTtextSub3">작가와 소비자가 원하는<br>서비스들을 최대한 담으려는 노력</p>
+                <p class="CTtextDetail3">작가는 스토리 코너에 자유롭게<br>사진과 글을 게재할 수 있고,<br>사람들은 자신이 좋아하는 작가를 팔로우해<br>작가의 소식과 취미를 자유롭게 살펴볼 수 있습니다.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="balnk3">
+       
+    </div>
+
+    <div class="bottomContentWrap">
+        <div class="BCimg">
+            <p class="BCimgSub">BRAND NEWS</p>
+            <p class="BCimgMain">핸드메이드 작품 온라인 플랫폼<br>‘아이디어스’의 성공 전략</p>
+            <p class="BCimgButton"><a href="#" class="BCimgMore">MORE</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="bottom">
+            <div class="bottomMain">
+                <p class="BTmainText">개인정보처리방침   ㅣ   이용약관   ㅣ   E-mail무단수집거부   ㅣ   Contact us   ㅣ  Sitemap </p>
+                <img class="BTmainIcons" src="https://i.postimg.cc/L4k0SvPX/01-9.png" alt="copyright icons">
+            </div>
+            <div class="bottomSub">
+                <p class="BTsubText">(주) 백패커 대표이사 : 김동환  주소 : 서울특별시 마포구 동교로 19길 12<br>사업자 등록번호 : 107-87-83297  고객상담실 : 1668-3651</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
